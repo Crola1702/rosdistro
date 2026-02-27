@@ -1220,6 +1220,7 @@ fltk:  # Consider using the libfltk-dev and fluid (fltk runtime) keys instead.
   ubuntu:
     bionic: [fluid, libfltk1.3-dev]
     focal: [fluid, libfltk1.3-dev]
+    resolute: [fluid, libfltk1.3-dev]
 fluid:
   arch: [fltk]
   debian: [libfltk1.1-dev]
@@ -1335,6 +1336,7 @@ g++-10:
   ubuntu:
     focal: [g++-10]
     jammy: [g++-10]
+    resolute: [g++-10]
 g++-5-arm-linux-gnueabihf:
   ubuntu: [g++-5-arm-linux-gnueabihf]
 g++-5-multilib:
@@ -1378,6 +1380,7 @@ gazebo:
     bionic: [gazebo9]
     focal: [gazebo11]
     jammy: [gazebo]
+    resolute: [gazebo]
 gazebo11:
   debian:
     buster: [gazebo11]
@@ -1386,6 +1389,7 @@ gazebo11:
   ubuntu:
     focal: [gazebo11]
     jammy: [gazebo]
+    resolute: [gazebo]
 gazebo5:
   arch: [gazebo]
   gentoo: [=sci-electronics/gazebo-5*]
@@ -1408,6 +1412,7 @@ gazebo9:
   openembedded: []
   ubuntu:
     bionic: [gazebo9]
+    resolute: [gazebo9]
 gcc-arm-none-eabi:
   arch: [arm-none-eabi-gcc]
   debian: [gcc-arm-none-eabi]
@@ -1951,25 +1956,31 @@ gurumdds-2.6:
   ubuntu:
     bionic: [gurumdds-2.6]
     focal: [gurumdds-2.6]
+    resolute: [gurumdds-2.6]
 gurumdds-2.7:
   ubuntu:
     bionic: [gurumdds-2.7]
     focal: [gurumdds-2.7]
+    resolute: [gurumdds-2.7]
 gurumdds-2.8:
   ubuntu:
     bionic: [gurumdds-2.8]
     focal: [gurumdds-2.8]
     jammy: [gurumdds-2.8]
+    resolute: [gurumdds-2.8]
 gurumdds-3.0:
   ubuntu:
     jammy: [gurumdds-3.0]
+    resolute: [gurumdds-3.0]
 gurumdds-3.1:
   ubuntu:
     jammy: [gurumdds-3.1]
+    resolute: [gurumdds-3.1]
 gurumdds-3.2:
   ubuntu:
     jammy: [gurumdds-3.2]
     noble: [gurumdds-3.2]
+    resolute: [gurumdds-3.2]
 gv:
   debian: [gv]
   fedora: [gv]
@@ -1979,32 +1990,39 @@ gv:
 gz-citadel:
   ubuntu:
     focal: [gz-citadel]
+    resolute: [gz-citadel]
 gz-cmake2:
   ubuntu:
     focal: [libgz-cmake2-dev]
     jammy: [libgz-cmake2-dev]
+    resolute: [libgz-cmake2-dev]
 gz-cmake3:
   gentoo: ['dev-build/gz-cmake:3']
 gz-common3:
   ubuntu:
     focal: [libgz-common3-dev]
+    resolute: [libgz-common3-dev]
 gz-common4:
   ubuntu:
     focal: [libgz-common4-dev]
     jammy: [libgz-common4-dev]
+    resolute: [libgz-common4-dev]
 gz-common5:
   gentoo: ['sci-libs/gz-common:5']
 gz-fortress:
   ubuntu:
     focal: [gz-fortress]
     jammy: [gz-fortress]
+    resolute: [gz-fortress]
 gz-fuel-tools4:
   ubuntu:
     focal: [libgz-fuel-tools4-dev]
+    resolute: [libgz-fuel-tools4-dev]
 gz-fuel-tools7:
   ubuntu:
     focal: [libgz-fuel-tools7-dev]
     jammy: [libgz-fuel-tools7-dev]
+    resolute: [libgz-fuel-tools7-dev]
 gz-fuel-tools8:
   gentoo: ['sci-libs/gz-fuel-tools:8']
 gz-garden:
@@ -2012,29 +2030,35 @@ gz-garden:
 gz-gui3:
   ubuntu:
     focal: [libgz-gui3-dev]
+    resolute: [libgz-gui3-dev]
 gz-gui6:
   ubuntu:
     focal: [libgz-gui6-dev]
     jammy: [libgz-gui6-dev]
+    resolute: [libgz-gui6-dev]
 gz-gui7:
   gentoo: ['sci-libs/gz-gui:7']
 gz-launch2:
   ubuntu:
     focal: [libgz-launch2-dev]
+    resolute: [libgz-launch2-dev]
 gz-launch5:
   ubuntu:
     focal: [libgz-launch5-dev]
     jammy: [libgz-launch5-dev]
+    resolute: [libgz-launch5-dev]
 gz-launch6:
   gentoo: ['sci-electronics/gz-launch:6']
 gz-math6:
   ubuntu:
     focal: [libgz-math6-dev]
     jammy: [libgz-math6-dev]
+    resolute: [libgz-math6-dev]
 gz-math6-eigen3:
   ubuntu:
     focal: [libgz-math6-eigen3-dev]
     jammy: [libgz-math6-eigen3-dev]
+    resolute: [libgz-math6-eigen3-dev]
 gz-math7:
   gentoo: ['sci-libs/gz-math:7']
 gz-math7-eigen3:
@@ -2042,56 +2066,68 @@ gz-math7-eigen3:
 gz-msgs5:
   ubuntu:
     focal: [libgz-msgs5-dev]
+    resolute: [libgz-msgs5-dev]
 gz-msgs8:
   ubuntu:
     focal: [libgz-msgs8-dev]
     jammy: [libgz-msgs8-dev]
+    resolute: [libgz-msgs8-dev]
 gz-msgs9:
   gentoo: ['net-libs/gz-msgs:9']
 gz-physics2:
   ubuntu:
     focal: [libgz-physics2-dev]
+    resolute: [libgz-physics2-dev]
 gz-physics5:
   ubuntu:
     focal: [libgz-physics5-dev]
     jammy: [libgz-physics5-dev]
+    resolute: [libgz-physics5-dev]
 gz-physics6:
   gentoo: ['sci-libs/gz-physics:6']
 gz-plugin:
   ubuntu:
     focal: [libgz-plugin-dev]
     jammy: [libgz-plugin-dev]
+    resolute: [libgz-plugin-dev]
 gz-plugin2:
   gentoo: ['dev-libs/gz-plugin:2']
 gz-rendering3:
   ubuntu:
     focal: [libgz-rendering3-dev]
+    resolute: [libgz-rendering3-dev]
 gz-rendering6:
   ubuntu:
     focal: [libgz-rendering6-dev]
     jammy: [libgz-rendering6-dev]
+    resolute: [libgz-rendering6-dev]
 gz-rendering7:
   gentoo: ['media-gfx/gz-rendering:7']
 gz-sensors3:
   ubuntu:
     focal: [libgz-sensors3-dev]
+    resolute: [libgz-sensors3-dev]
 gz-sensors6:
   ubuntu:
     focal: [libgz-sensors6-dev]
     jammy: [libgz-sensors6-dev]
+    resolute: [libgz-sensors6-dev]
 gz-sensors7:
   gentoo: ['sci-libs/gz-sensors:7']
 gz-sim3:
   ubuntu:
     focal: [libgz-sim3-dev]
+    resolute: [libgz-sim3-dev]
 gz-sim6:
   ubuntu:
     focal: [libgz-sim6-dev]
     jammy: [libgz-sim6-dev]
+    resolute: [libgz-sim6-dev]
 gz-sim6-plugins:
   ubuntu:
     focal: [libgz-sim6-plugins]
     jammy: [libgz-sim6-plugins]
+    resolute: [libgz-sim6-plugins]
 gz-sim7:
   gentoo: ['sci-electronics/gz-sim:7']
 gz-sim7-plugins:
@@ -2100,25 +2136,30 @@ gz-tools:
   ubuntu:
     focal: [libgz-tools-dev]
     jammy: [libgz-tools-dev]
+    resolute: [libgz-tools-dev]
 gz-tools2:
   gentoo: ['sci-electronics/gz-tools:2']
 gz-transport11:
   ubuntu:
     focal: [libgz-transport11-dev]
     jammy: [libgz-transport11-dev]
+    resolute: [libgz-transport11-dev]
 gz-transport12:
   gentoo: ['net-libs/gz-transport:12']
 gz-transport8:
   ubuntu:
     focal: [libgz-transport8-dev]
+    resolute: [libgz-transport8-dev]
 gz-utils1:
   ubuntu:
     focal: [libgz-utils1-dev]
     jammy: [libgz-utils1-dev]
+    resolute: [libgz-utils1-dev]
 gz-utils1-cli:
   ubuntu:
     focal: [libgz-utils1-cli-dev]
     jammy: [libgz-utils1-cli-dev]
+    resolute: [libgz-utils1-cli-dev]
 gz-utils2:
   gentoo: ['dev-libs/gz-utils:2']
 gz-utils2-cli:
@@ -2215,6 +2256,7 @@ ignition-citadel:
     buster: [ignition-citadel]
   ubuntu:
     focal: [ignition-citadel]
+    resolute: [ignition-citadel]
 ignition-cmake2:
   debian:
     bookworm: [libignition-cmake-dev]
@@ -2224,6 +2266,7 @@ ignition-cmake2:
   ubuntu:
     focal: [libignition-cmake2-dev]
     jammy: [libignition-cmake2-dev]
+    resolute: [libignition-cmake2-dev]
 ignition-common3:
   debian:
     buster: [libignition-common3-dev]
@@ -2231,23 +2274,27 @@ ignition-common3:
   nixos: [ignition.common3]
   ubuntu:
     focal: [libignition-common3-dev]
+    resolute: [libignition-common3-dev]
 ignition-common4:
   debian:
     buster: [libignition-common4-dev]
   ubuntu:
     focal: [libignition-common4-dev]
     jammy: [libignition-common4-dev]
+    resolute: [libignition-common4-dev]
 ignition-edifice:
   debian:
     buster: [ignition-edifice]
   ubuntu:
     focal: [ignition-edifice]
+    resolute: [ignition-edifice]
 ignition-fortress:
   debian:
     buster: [ignition-fortress]
   ubuntu:
     focal: [ignition-fortress]
     jammy: [ignition-fortress]
+    resolute: [ignition-fortress]
 ignition-fuel-tools4:
   debian:
     buster: [libignition-fuel-tools4-dev]
@@ -2255,76 +2302,90 @@ ignition-fuel-tools4:
   nixos: [ignition.fuel-tools4]
   ubuntu:
     focal: [libignition-fuel-tools4-dev]
+    resolute: [libignition-fuel-tools4-dev]
 ignition-fuel-tools6:
   debian:
     buster: [libignition-fuel-tools6-dev]
   ubuntu:
     focal: [libignition-fuel-tools6-dev]
+    resolute: [libignition-fuel-tools6-dev]
 ignition-fuel-tools7:
   debian:
     buster: [libignition-fuel-tools7-dev]
   ubuntu:
     focal: [libignition-fuel-tools7-dev]
     jammy: [libignition-fuel-tools7-dev]
+    resolute: [libignition-fuel-tools7-dev]
 ignition-gazebo3:
   debian:
     buster: [libignition-gazebo3-dev]
   ubuntu:
     focal: [libignition-gazebo3-dev]
+    resolute: [libignition-gazebo3-dev]
 ignition-gazebo5:
   debian:
     buster: [libignition-gazebo5-dev]
   ubuntu:
     focal: [libignition-gazebo5-dev]
+    resolute: [libignition-gazebo5-dev]
 ignition-gazebo5-plugins:
   debian:
     buster: [libignition-gazebo5-plugins]
   ubuntu:
     focal: [libignition-gazebo5-plugins]
+    resolute: [libignition-gazebo5-plugins]
 ignition-gazebo6:
   debian:
     buster: [libignition-gazebo6-dev]
   ubuntu:
     focal: [libignition-gazebo6-dev]
     jammy: [libignition-gazebo6-dev]
+    resolute: [libignition-gazebo6-dev]
 ignition-gazebo6-plugins:
   debian:
     buster: [libignition-gazebo6-plugins]
   ubuntu:
     focal: [libignition-gazebo6-plugins]
     jammy: [libignition-gazebo6-plugins]
+    resolute: [libignition-gazebo6-plugins]
 ignition-gui3:
   debian:
     buster: [libignition-gui3-dev]
   ubuntu:
     focal: [libignition-gui3-dev]
+    resolute: [libignition-gui3-dev]
 ignition-gui5:
   debian:
     buster: [libignition-gui5-dev]
   ubuntu:
     focal: [libignition-gui5-dev]
+    resolute: [libignition-gui5-dev]
 ignition-gui6:
   debian:
     buster: [libignition-gui6-dev]
   ubuntu:
     focal: [libignition-gui6-dev]
     jammy: [libignition-gui6-dev]
+    resolute: [libignition-gui6-dev]
 ignition-launch2:
   debian:
     buster: [libignition-launch2-dev]
   ubuntu:
     focal: [libignition-launch2-dev]
+    resolute: [libignition-launch2-dev]
 ignition-launch4:
   debian:
     buster: [libignition-launch4-dev]
   ubuntu:
     focal: [libignition-launch4-dev]
+    resolute: [libignition-launch4-dev]
 ignition-launch5:
   debian:
     buster: [libignition-launch5-dev]
   ubuntu:
     focal: [libignition-launch5-dev]
     jammy: [libignition-launch5-dev]
+    resolute: [libignition-launch5-dev]
 ignition-math6:
   debian:
     bookworm: [libignition-math-dev]
@@ -2334,6 +2395,7 @@ ignition-math6:
   ubuntu:
     focal: [libignition-math6-dev]
     jammy: [libignition-math6-dev]
+    resolute: [libignition-math6-dev]
 ignition-math6-eigen3:
   debian:
     buster: [libignition-math6-eigen3-dev]
@@ -2342,17 +2404,20 @@ ignition-math6-eigen3:
   ubuntu:
     focal: [libignition-math6-eigen3-dev]
     jammy: [libignition-math6-eigen3-dev]
+    resolute: [libignition-math6-eigen3-dev]
 ignition-msgs5:
   debian:
     buster: [libignition-msgs5-dev]
   nixos: [ignition.msgs5]
   ubuntu:
     focal: [libignition-msgs5-dev]
+    resolute: [libignition-msgs5-dev]
 ignition-msgs7:
   debian:
     buster: [libignition-msgs7-dev]
   ubuntu:
     focal: [libignition-msgs7-dev]
+    resolute: [libignition-msgs7-dev]
 ignition-msgs8:
   debian:
     buster: [libignition-msgs8-dev]
@@ -2360,60 +2425,71 @@ ignition-msgs8:
   ubuntu:
     focal: [libignition-msgs8-dev]
     jammy: [libignition-msgs8-dev]
+    resolute: [libignition-msgs8-dev]
 ignition-physics2:
   debian:
     buster: [libignition-physics2-dev]
   ubuntu:
     focal: [libignition-physics2-dev]
+    resolute: [libignition-physics2-dev]
 ignition-physics4:
   debian:
     buster: [libignition-physics4-dev]
   ubuntu:
     focal: [libignition-physics4-dev]
+    resolute: [libignition-physics4-dev]
 ignition-physics5:
   debian:
     buster: [libignition-physics5-dev]
   ubuntu:
     focal: [libignition-physics5-dev]
     jammy: [libignition-physics5-dev]
+    resolute: [libignition-physics5-dev]
 ignition-plugin:
   debian:
     buster: [libignition-plugin-dev]
   ubuntu:
     focal: [libignition-plugin-dev]
     jammy: [libignition-plugin-dev]
+    resolute: [libignition-plugin-dev]
 ignition-rendering3:
   debian:
     buster: [libignition-rendering3-dev]
   ubuntu:
     focal: [libignition-rendering3-dev]
+    resolute: [libignition-rendering3-dev]
 ignition-rendering5:
   debian:
     buster: [libignition-rendering5-dev]
   ubuntu:
     focal: [libignition-rendering5-dev]
+    resolute: [libignition-rendering5-dev]
 ignition-rendering6:
   debian:
     buster: [libignition-rendering6-dev]
   ubuntu:
     focal: [libignition-rendering6-dev]
     jammy: [libignition-rendering6-dev]
+    resolute: [libignition-rendering6-dev]
 ignition-sensors3:
   debian:
     buster: [libignition-sensors3-dev]
   ubuntu:
     focal: [libignition-sensors3-dev]
+    resolute: [libignition-sensors3-dev]
 ignition-sensors5:
   debian:
     buster: [libignition-sensors5-dev]
   ubuntu:
     focal: [libignition-sensors5-dev]
+    resolute: [libignition-sensors5-dev]
 ignition-sensors6:
   debian:
     buster: [libignition-sensors6-dev]
   ubuntu:
     focal: [libignition-sensors6-dev]
     jammy: [libignition-sensors6-dev]
+    resolute: [libignition-sensors6-dev]
 ignition-tools:
   debian:
     buster: [libignition-tools-dev]
@@ -2421,11 +2497,13 @@ ignition-tools:
   ubuntu:
     focal: [libignition-tools-dev]
     jammy: [libignition-tools-dev]
+    resolute: [libignition-tools-dev]
 ignition-transport10:
   debian:
     buster: [libignition-transport10-dev]
   ubuntu:
     focal: [libignition-transport10-dev]
+    resolute: [libignition-transport10-dev]
 ignition-transport11:
   debian:
     buster: [libignition-transport11-dev]
@@ -2433,24 +2511,28 @@ ignition-transport11:
   ubuntu:
     focal: [libignition-transport11-dev]
     jammy: [libignition-transport11-dev]
+    resolute: [libignition-transport11-dev]
 ignition-transport8:
   debian:
     buster: [libignition-transport8-dev]
   nixos: [ignition.transport8]
   ubuntu:
     focal: [libignition-transport8-dev]
+    resolute: [libignition-transport8-dev]
 ignition-utils1:
   debian:
     buster: [libignition-utils1-dev]
   ubuntu:
     focal: [libignition-utils1-dev]
     jammy: [libignition-utils1-dev]
+    resolute: [libignition-utils1-dev]
 ignition-utils1-cli:
   debian:
     buster: [libignition-utils1-cli-dev]
   ubuntu:
     focal: [libignition-utils1-cli-dev]
     jammy: [libignition-utils1-cli-dev]
+    resolute: [libignition-utils1-cli-dev]
 imagemagick:
   arch: [imagemagick]
   debian: [imagemagick]
@@ -2896,6 +2978,7 @@ libboost-atomic:
     focal: [libboost-atomic1.71.0]
     jammy: [libboost-atomic1.74.0]
     noble: [libboost-atomic1.83.0]
+    resolute: [libboost-atomic1.83.0]
 libboost-atomic-dev:
   arch: [boost]
   debian: [libboost-atomic-dev]
@@ -2923,6 +3006,7 @@ libboost-chrono:
     focal: [libboost-chrono1.71.0]
     jammy: [libboost-chrono1.74.0]
     noble: [libboost-chrono1.83.0t64]
+    resolute: [libboost-chrono1.83.0t64]
 libboost-chrono-dev:
   arch: [boost]
   debian: [libboost-chrono-dev]
@@ -2953,6 +3037,7 @@ libboost-coroutine:
     focal: [libboost-coroutine1.71.0]
     jammy: [libboost-coroutine1.74.0]
     noble: [libboost-coroutine1.83.0]
+    resolute: [libboost-coroutine1.83.0]
 libboost-coroutine-dev:
   alpine: [boost-dev]
   arch: [boost]
@@ -2981,6 +3066,7 @@ libboost-date-time:
     focal: [libboost-date-time1.71.0]
     jammy: [libboost-date-time1.74.0]
     noble: [libboost-date-time1.83.0]
+    resolute: [libboost-date-time1.83.0]
 libboost-date-time-dev:
   arch: [boost]
   debian: [libboost-date-time-dev]
@@ -3018,6 +3104,7 @@ libboost-filesystem:
     focal: [libboost-filesystem1.71.0]
     jammy: [libboost-filesystem1.74.0]
     noble: [libboost-filesystem1.83.0]
+    resolute: [libboost-filesystem1.83.0]
 libboost-filesystem-dev:
   arch: [boost]
   debian: [libboost-filesystem-dev]
@@ -3045,6 +3132,7 @@ libboost-iostreams:
     focal: [libboost-iostreams1.71.0]
     jammy: [libboost-iostreams1.74.0]
     noble: [libboost-iostreams1.83.0]
+    resolute: [libboost-iostreams1.83.0]
 libboost-iostreams-dev:
   arch: [boost]
   debian: [libboost-iostreams-dev]
@@ -3071,6 +3159,7 @@ libboost-math:
     focal: [libboost-math1.71.0]
     jammy: [libboost-math1.74.0]
     noble: [libboost-math1.83.0]
+    resolute: [libboost-math1.83.0]
 libboost-math-dev:
   arch: [boost]
   debian: [libboost-math-dev]
@@ -3106,6 +3195,7 @@ libboost-program-options:
     focal: [libboost-program-options1.71.0]
     jammy: [libboost-program-options1.74.0]
     noble: [libboost-program-options1.83.0]
+    resolute: [libboost-program-options1.83.0]
 libboost-program-options-dev:
   arch: [boost]
   debian: [libboost-program-options-dev]
@@ -3136,6 +3226,7 @@ libboost-python:
     focal: [libboost-python1.71.0]
     jammy: [libboost-python1.74.0]
     noble: [libboost-python1.83.0]
+    resolute: [libboost-python1.83.0]
 libboost-python-dev:
   alpine: [boost-python2]
   arch: [boost]
@@ -3166,6 +3257,7 @@ libboost-random:
     focal: [libboost-random1.71.0]
     jammy: [libboost-random1.74.0]
     noble: [libboost-random1.83.0]
+    resolute: [libboost-random1.83.0]
 libboost-random-dev:
   arch: [boost]
   debian: [libboost-random-dev]
@@ -3193,6 +3285,7 @@ libboost-regex:
     focal: [libboost-regex1.71.0]
     jammy: [libboost-regex1.74.0]
     noble: [libboost-regex1.83.0]
+    resolute: [libboost-regex1.83.0]
 libboost-regex-dev:
   arch: [boost]
   debian: [libboost-regex-dev]
@@ -3220,6 +3313,7 @@ libboost-serialization:
     focal: [libboost-serialization1.71.0]
     jammy: [libboost-serialization1.74.0]
     noble: [libboost-serialization1.83.0]
+    resolute: [libboost-serialization1.83.0]
 libboost-serialization-dev:
   arch: [boost]
   debian: [libboost-serialization-dev]
@@ -3247,6 +3341,7 @@ libboost-system:
     focal: [libboost-system1.71.0]
     jammy: [libboost-system1.74.0]
     noble: [libboost-system1.83.0]
+    resolute: [libboost-system1.83.0]
 libboost-system-dev:
   arch: [boost]
   debian: [libboost-system-dev]
@@ -3274,6 +3369,7 @@ libboost-thread:
     focal: [libboost-thread1.71.0]
     jammy: [libboost-thread1.74.0]
     noble: [libboost-thread1.83.0]
+    resolute: [libboost-thread1.83.0]
 libboost-thread-dev:
   arch: [boost]
   debian: [libboost-thread-dev]
@@ -3300,6 +3396,7 @@ libboost-timer:
     focal: [libboost-timer1.71.0]
     jammy: [libboost-timer1.74.0]
     noble: [libboost-timer1.83.0]
+    resolute: [libboost-timer1.83.0]
 libboost-timer-dev:
   arch: [boost]
   debian: [libboost-timer-dev]
@@ -3430,6 +3527,7 @@ libceres:
     focal: null
     jammy: [libceres2]
     noble: [libceres4t64]
+    resolute: [libceres4t64]
 libceres-dev:
   arch: [ceres-solver]
   debian: [libceres-dev]
@@ -4051,6 +4149,7 @@ libftdipp-dev:
   openembedded: [libftdi@meta-oe]
   ubuntu:
     bionic: [libftdipp1-dev]
+    resolute: [libftdipp1-dev]
 libftgl-dev:
   arch: [ftgl]
   debian: [libftgl-dev]
@@ -4082,6 +4181,7 @@ libgazebo-dev:
   ubuntu:
     focal: [libgazebo11-dev]
     jammy: [libgazebo-dev]
+    resolute: [libgazebo-dev]
 libgazebo11-dev:
   debian:
     buster: [libgazebo11-dev]
@@ -4090,6 +4190,7 @@ libgazebo11-dev:
   ubuntu:
     focal: [libgazebo11-dev]
     jammy: [libgazebo-dev]
+    resolute: [libgazebo-dev]
 libgazebo5-dev:
   arch: [gazebo]
   gentoo: [=sci-electronics/gazebo-5*]
@@ -4112,6 +4213,7 @@ libgazebo9-dev:
   nixos: [gazebo_9]
   ubuntu:
     bionic: [libgazebo9-dev]
+    resolute: [libgazebo9-dev]
 libgconf2:
   debian: [libgconf-2-4]
   fedora: [GConf2]
@@ -4479,52 +4581,62 @@ libignition-common3:
   nixos: [ignition.common3]
   ubuntu:
     focal: [libignition-common3]
+    resolute: [libignition-common3]
 libignition-common4:
   debian:
     buster: [libignition-common4]
   ubuntu:
     focal: [libignition-common4]
+    resolute: [libignition-common4]
 libignition-fuel-tools4:
   debian:
     buster: [libignition-fuel-tools4]
   nixos: [ignition.fuel-tools4]
   ubuntu:
     focal: [libignition-fuel-tools4]
+    resolute: [libignition-fuel-tools4]
 libignition-fuel-tools6:
   debian:
     buster: [libignition-fuel-tools6]
   ubuntu:
     focal: [libignition-fuel-tools6]
+    resolute: [libignition-fuel-tools6]
 libignition-gazebo3:
   debian:
     buster: [libignition-gazebo3]
   ubuntu:
     focal: [libignition-gazebo3]
+    resolute: [libignition-gazebo3]
 libignition-gazebo5:
   debian:
     buster: [libignition-gazebo5]
   ubuntu:
     focal: [libignition-gazebo5]
+    resolute: [libignition-gazebo5]
 libignition-gui3:
   debian:
     buster: [libignition-gui3]
   ubuntu:
     focal: [libignition-gui3]
+    resolute: [libignition-gui3]
 libignition-gui5:
   debian:
     buster: [libignition-gui5]
   ubuntu:
     focal: [libignition-gui5]
+    resolute: [libignition-gui5]
 libignition-launch2:
   debian:
     buster: [libignition-launch2]
   ubuntu:
     focal: [libignition-launch2]
+    resolute: [libignition-launch2]
 libignition-launch4:
   debian:
     buster: [libignition-launch4]
   ubuntu:
     focal: [libignition-launch4]
+    resolute: [libignition-launch4]
 libignition-math6:
   debian:
     buster: [libignition-math6]
@@ -4532,63 +4644,75 @@ libignition-math6:
   nixos: [ignition.math6]
   ubuntu:
     focal: [libignition-math6]
+    resolute: [libignition-math6]
 libignition-msgs5:
   debian:
     buster: [libignition-msgs5]
   nixos: [ignition.msgs5]
   ubuntu:
     focal: [libignition-msgs5]
+    resolute: [libignition-msgs5]
 libignition-msgs7:
   debian:
     buster: [libignition-msgs7]
   ubuntu:
     focal: [libignition-msgs7]
+    resolute: [libignition-msgs7]
 libignition-physics2:
   debian:
     buster: [libignition-physics2]
   ubuntu:
     focal: [libignition-physics2]
+    resolute: [libignition-physics2]
 libignition-physics4:
   debian:
     buster: [libignition-physics4]
   ubuntu:
     focal: [libignition-physics4]
+    resolute: [libignition-physics4]
 libignition-rendering3:
   debian:
     buster: [libignition-rendering3]
   ubuntu:
     focal: [libignition-rendering3]
+    resolute: [libignition-rendering3]
 libignition-rendering5:
   debian:
     buster: [libignition-rendering5]
   ubuntu:
     focal: [libignition-rendering5]
+    resolute: [libignition-rendering5]
 libignition-sensors3:
   debian:
     buster: [libignition-sensors3]
   ubuntu:
     focal: [libignition-sensors3]
+    resolute: [libignition-sensors3]
 libignition-sensors5:
   debian:
     buster: [libignition-sensors5]
   ubuntu:
     focal: [libignition-sensors5]
+    resolute: [libignition-sensors5]
 libignition-transport10:
   debian:
     buster: [libignition-transport10]
   ubuntu:
     focal: [libignition-transport10]
+    resolute: [libignition-transport10]
 libignition-transport8:
   debian:
     buster: [libignition-transport8]
   nixos: [ignition.transport8]
   ubuntu:
     focal: [libignition-transport8]
+    resolute: [libignition-transport8]
 libignition-utils1:
   debian:
     buster: [libignition-utils1]
   ubuntu:
     focal: [libignition-utils1]
+    resolute: [libignition-utils1]
 libiio-dev:
   arch: [libiio]
   debian: [libiio-dev]
@@ -5191,6 +5315,7 @@ libogre-1.12-dev:
   ubuntu:
     focal: [libogre-1.12-dev]
     jammy: [libogre-1.12-dev]
+    resolute: [libogre-1.12-dev]
 libogre-dev:
   arch: [ogre]
   debian:
@@ -5211,6 +5336,7 @@ libogre1.12.10:
     bullseye: [libogre1.12.10]
   ubuntu:
     jammy: [libogre1.12.10]
+    resolute: [libogre1.12.10]
 libois-dev:
   arch: [ois]
   debian: [libois-dev]
@@ -5276,6 +5402,7 @@ libopencv-core:
   ubuntu:
     jammy: [libopencv-core4.5d]
     noble: [libopencv-core406t64]
+    resolute: [libopencv-core406t64]
 libopencv-core-dev:
   debian: [libopencv-core-dev]
   fedora: [opencv-devel]
@@ -5322,6 +5449,7 @@ libopencv-imgcodecs:
   ubuntu:
     jammy: [libopencv-imgcodecs4.5d]
     noble: [libopencv-imgcodecs406t64]
+    resolute: [libopencv-imgcodecs406t64]
 libopencv-imgcodecs-dev:
   debian: [libopencv-imgcodecs-dev]
   fedora: [opencv-devel]
@@ -5340,6 +5468,7 @@ libopencv-imgproc:
   ubuntu:
     jammy: [libopencv-imgproc4.5d]
     noble: [libopencv-imgproc406t64]
+    resolute: [libopencv-imgproc406t64]
 libopencv-imgproc-dev:
   arch: [opencv]
   debian: [libopencv-imgproc-dev]
@@ -5413,11 +5542,13 @@ libopensplice67:
   gentoo: [=sci-libs/opensplice-6.7.*]
   ubuntu:
     bionic: [libopensplice67]
+    resolute: [libopensplice67]
 libopensplice69:
   gentoo: [=sci-libs/opensplice-6.9.*]
   nixos: [opensplice_6_9]
   ubuntu:
     bionic: [libopensplice69]
+    resolute: [libopensplice69]
 libopenvdb:
   arch: [openvdb]
   debian:
@@ -5435,6 +5566,7 @@ libopenvdb:
     focal: [libopenvdb6.2]
     jammy: [libopenvdb8.1]
     noble: [libopenvdb10.0t64]
+    resolute: [libopenvdb10.0t64]
 libopenvdb-dev:
   arch: [openvdb]
   debian: [libopenvdb-dev, libilmbase-dev]
@@ -5575,6 +5707,7 @@ libpcl-all:
     focal: [libpcl-apps1.10, libpcl-common1.10, libpcl-features1.10, libpcl-filters1.10, libpcl-io1.10, libpcl-kdtree1.10, libpcl-keypoints1.10, libpcl-ml1.10, libpcl-octree1.10, libpcl-outofcore1.10, libpcl-people1.10, libpcl-recognition1.10, libpcl-registration1.10, libpcl-sample-consensus1.10, libpcl-search1.10, libpcl-segmentation1.10, libpcl-stereo1.10, libpcl-surface1.10, libpcl-tracking1.10, libpcl-visualization1.10]
     jammy: [libpcl-apps1.12, libpcl-common1.12, libpcl-features1.12, libpcl-filters1.12, libpcl-io1.12, libpcl-kdtree1.12, libpcl-keypoints1.12, libpcl-ml1.12, libpcl-octree1.12, libpcl-outofcore1.12, libpcl-people1.12, libpcl-recognition1.12, libpcl-registration1.12, libpcl-sample-consensus1.12, libpcl-search1.12, libpcl-segmentation1.12, libpcl-stereo1.12, libpcl-surface1.12, libpcl-tracking1.12, libpcl-visualization1.12]
     noble: [libpcl-apps1.14, libpcl-common1.14, libpcl-features1.14, libpcl-filters1.14, libpcl-io1.14, libpcl-kdtree1.14, libpcl-keypoints1.14, libpcl-ml1.14, libpcl-octree1.14, libpcl-outofcore1.14, libpcl-people1.14, libpcl-recognition1.14, libpcl-registration1.14, libpcl-sample-consensus1.14, libpcl-search1.14, libpcl-segmentation1.14, libpcl-stereo1.14, libpcl-surface1.14, libpcl-tracking1.14, libpcl-visualization1.14]
+    resolute: [libpcl-apps1.14, libpcl-common1.14, libpcl-features1.14, libpcl-filters1.14, libpcl-io1.14, libpcl-kdtree1.14, libpcl-keypoints1.14, libpcl-ml1.14, libpcl-octree1.14, libpcl-outofcore1.14, libpcl-people1.14, libpcl-recognition1.14, libpcl-registration1.14, libpcl-sample-consensus1.14, libpcl-search1.14, libpcl-segmentation1.14, libpcl-stereo1.14, libpcl-surface1.14, libpcl-tracking1.14, libpcl-visualization1.14]
 libpcl-all-dev:
   debian: [libpcl-dev]
   fedora: [pcl-devel]
@@ -5605,6 +5738,7 @@ libpcl-apps:
     focal: [libpcl-apps1.10]
     jammy: [libpcl-apps1.12]
     noble: [libpcl-apps1.14]
+    resolute: [libpcl-apps1.14]
 libpcl-common:
   alpine: [pcl-libs]
   debian:
@@ -5624,6 +5758,7 @@ libpcl-common:
     focal: [libpcl-common1.10]
     jammy: [libpcl-common1.12]
     noble: [libpcl-common1.14]
+    resolute: [libpcl-common1.14]
 libpcl-features:
   alpine: [pcl-libs]
   debian:
@@ -5643,6 +5778,7 @@ libpcl-features:
     focal: [libpcl-features1.10]
     jammy: [libpcl-features1.12]
     noble: [libpcl-features1.14]
+    resolute: [libpcl-features1.14]
 libpcl-filters:
   alpine: [pcl-libs]
   debian:
@@ -5662,6 +5798,7 @@ libpcl-filters:
     focal: [libpcl-filters1.10]
     jammy: [libpcl-filters1.12]
     noble: [libpcl-filters1.14]
+    resolute: [libpcl-filters1.14]
 libpcl-io:
   alpine: [pcl-libs]
   debian:
@@ -5681,6 +5818,7 @@ libpcl-io:
     focal: [libpcl-io1.10]
     jammy: [libpcl-io1.12]
     noble: [libpcl-io1.14]
+    resolute: [libpcl-io1.14]
 libpcl-kdtree:
   alpine: [pcl-libs]
   debian:
@@ -5699,6 +5837,7 @@ libpcl-kdtree:
     focal: [libpcl-kdtree1.10]
     jammy: [libpcl-kdtree1.12]
     noble: [libpcl-kdtree1.14]
+    resolute: [libpcl-kdtree1.14]
 libpcl-keypoints:
   alpine: [pcl-libs]
   debian:
@@ -5717,6 +5856,7 @@ libpcl-keypoints:
     focal: [libpcl-keypoints1.10]
     jammy: [libpcl-keypoints1.12]
     noble: [libpcl-keypoints1.14]
+    resolute: [libpcl-keypoints1.14]
 libpcl-ml:
   alpine: [pcl-libs]
   debian:
@@ -5735,6 +5875,7 @@ libpcl-ml:
     focal: [libpcl-ml1.10]
     jammy: [libpcl-ml1.12]
     noble: [libpcl-ml1.14]
+    resolute: [libpcl-ml1.14]
 libpcl-octree:
   alpine: [pcl-libs]
   debian:
@@ -5753,6 +5894,7 @@ libpcl-octree:
     focal: [libpcl-octree1.10]
     jammy: [libpcl-octree1.12]
     noble: [libpcl-octree1.14]
+    resolute: [libpcl-octree1.14]
 libpcl-outofcore:
   alpine: [pcl-libs]
   debian:
@@ -5771,6 +5913,7 @@ libpcl-outofcore:
     focal: [libpcl-outofcore1.10]
     jammy: [libpcl-outofcore1.12]
     noble: [libpcl-outofcore1.14]
+    resolute: [libpcl-outofcore1.14]
 libpcl-people:
   alpine: [pcl-libs]
   debian:
@@ -5789,6 +5932,7 @@ libpcl-people:
     focal: [libpcl-people1.10]
     jammy: [libpcl-people1.12]
     noble: [libpcl-people1.14]
+    resolute: [libpcl-people1.14]
 libpcl-recognition:
   alpine: [pcl-libs]
   debian:
@@ -5807,6 +5951,7 @@ libpcl-recognition:
     focal: [libpcl-recognition1.10]
     jammy: [libpcl-recognition1.12]
     noble: [libpcl-recognition1.14]
+    resolute: [libpcl-recognition1.14]
 libpcl-registration:
   alpine: [pcl-libs]
   debian:
@@ -5825,6 +5970,7 @@ libpcl-registration:
     focal: [libpcl-registration1.10]
     jammy: [libpcl-registration1.12]
     noble: [libpcl-registration1.14]
+    resolute: [libpcl-registration1.14]
 libpcl-sample-consensus:
   alpine: [pcl-libs]
   debian:
@@ -5843,6 +5989,7 @@ libpcl-sample-consensus:
     focal: [libpcl-sample-consensus1.10]
     jammy: [libpcl-sample-consensus1.12]
     noble: [libpcl-sample-consensus1.14]
+    resolute: [libpcl-sample-consensus1.14]
 libpcl-search:
   alpine: [pcl-libs]
   debian:
@@ -5861,6 +6008,7 @@ libpcl-search:
     focal: [libpcl-search1.10]
     jammy: [libpcl-search1.12]
     noble: [libpcl-search1.14]
+    resolute: [libpcl-search1.14]
 libpcl-segmentation:
   alpine: [pcl-libs]
   debian:
@@ -5880,6 +6028,7 @@ libpcl-segmentation:
     focal: [libpcl-segmentation1.10]
     jammy: [libpcl-segmentation1.12]
     noble: [libpcl-segmentation1.14]
+    resolute: [libpcl-segmentation1.14]
 libpcl-stereo:
   alpine: [pcl-libs]
   debian:
@@ -5898,6 +6047,7 @@ libpcl-stereo:
     focal: [libpcl-stereo1.10]
     jammy: [libpcl-stereo1.12]
     noble: [libpcl-stereo1.14]
+    resolute: [libpcl-stereo1.14]
 libpcl-surface:
   alpine: [pcl-libs]
   debian:
@@ -5917,6 +6067,7 @@ libpcl-surface:
     focal: [libpcl-surface1.10]
     jammy: [libpcl-surface1.12]
     noble: [libpcl-surface1.14]
+    resolute: [libpcl-surface1.14]
 libpcl-tracking:
   alpine: [pcl-libs]
   debian:
@@ -5935,6 +6086,7 @@ libpcl-tracking:
     focal: [libpcl-tracking1.10]
     jammy: [libpcl-tracking1.12]
     noble: [libpcl-tracking1.14]
+    resolute: [libpcl-tracking1.14]
 libpcl-visualization:
   alpine: [pcl-libs]
   debian:
@@ -5953,6 +6105,7 @@ libpcl-visualization:
     focal: [libpcl-visualization1.10]
     jammy: [libpcl-visualization1.12]
     noble: [libpcl-visualization1.14]
+    resolute: [libpcl-visualization1.14]
 libpcsclite-dev:
   alpine: [pcsc-lite-dev]
   arch: [pcsclite]
@@ -6058,6 +6211,7 @@ libpqxx:
     focal: [libpqxx-6.4]
     jammy: [libpqxx-6.4]
     noble: [libpqxx-7.8t64]
+    resolute: [libpqxx-7.8t64]
 libpqxx-dev:
   arch: [libpqxx]
   debian: [libpqxx-dev]
@@ -6077,6 +6231,7 @@ libprocps6:
     stretch: [libprocps6]
   ubuntu:
     bionic: [libprocps6]
+    resolute: [libprocps6]
 libpsl-dev:
   alpine: [libpsl-dev]
   debian: [libpsl-dev]
@@ -6136,6 +6291,7 @@ libqglviewer-qt4:
   macports: [libQGLViewer]
   ubuntu:
     bionic: [libqglviewer2-qt4]
+    resolute: [libqglviewer2-qt4]
 libqglviewer-qt4-dev:
   debian:
     buster: [libqglviewer-dev-qt4]
@@ -6145,6 +6301,7 @@ libqglviewer-qt4-dev:
   gentoo: ['x11-libs/libQGLViewer:0/qt4-2']
   ubuntu:
     bionic: [libqglviewer-dev-qt4]
+    resolute: [libqglviewer-dev-qt4]
 libqglviewer2-qt5:
   debian:
     '*': [libqglviewer2-qt5t64]
@@ -7264,6 +7421,7 @@ libuv-dev:
   debian:
   ubuntu:
     bionic: [libuv0.10-dev]
+    resolute: [libuv0.10-dev]
 libuv1-dev:
   arch: [libuv]
   debian:
@@ -7801,6 +7959,7 @@ llvm-7:
   ubuntu:
     bionic: [llvm-7]
     focal: [llvm-7]
+    resolute: [llvm-7]
 llvm-7-dev:
   debian:
     buster: [llvm-7-dev]
@@ -7810,6 +7969,7 @@ llvm-7-dev:
   ubuntu:
     bionic: [llvm-7-dev]
     focal: [llvm-7-dev]
+    resolute: [llvm-7-dev]
 llvm-dev:
   arch: [llvm]
   debian: [llvm-dev]
@@ -8021,6 +8181,7 @@ mkdocs:
   nixos: [mkdocs]
   ubuntu:
     bionic: [mkdocs]
+    resolute: [mkdocs]
 mkdocs-bootstrap:
   debian:
     buster: [mkdocs-bootstrap]
@@ -8029,6 +8190,7 @@ mkdocs-bootstrap:
   gentoo: [dev-python/mkdocs-bootstrap]
   ubuntu:
     bionic: [mkdocs-bootstrap]
+    resolute: [mkdocs-bootstrap]
 mkdocs-bootswatch:
   debian:
     buster: [mkdocs-bootswatch]
@@ -8037,6 +8199,7 @@ mkdocs-bootswatch:
   gentoo: [dev-python/mkdocs-bootswatch]
   ubuntu:
     bionic: [mkdocs-bootswatch]
+    resolute: [mkdocs-bootswatch]
 modemmanager:
   debian: [modemmanager]
   fedora: [ModemManager]
@@ -8050,6 +8213,7 @@ mongodb:
   ubuntu:
     bionic: [mongodb]
     focal: [mongodb]
+    resolute: [mongodb]
 mongodb-dev:
   debian: [libmongoclient-dev]
   gentoo: [dev-db/mongodb]
@@ -8370,6 +8534,7 @@ opencascade:
   ubuntu:
     bionic: [liboce-visualization-dev]
     focal: [libocct-data-exchange-dev, libocct-draw-dev]
+    resolute: [libocct-data-exchange-dev, libocct-draw-dev]
 opencl-headers:
   arch: [opencl-headers]
   debian: [opencl-headers]
@@ -8666,6 +8831,7 @@ postgresql-postgis:
   ubuntu:
     bionic: [postgresql-10-postgis-2.4, postgresql-contrib, postgresql-server-dev-all]
     focal: [postgresql-12-postgis-3, postgresql-contrib, postgresql-server-dev-all]
+    resolute: [postgresql-12-postgis-3, postgresql-contrib, postgresql-server-dev-all]
 potrace:
   arch: [potrace]
   debian: [potrace]
@@ -8721,6 +8887,7 @@ protobuf:
     focal: [libprotobuf17]
     jammy: [libprotobuf23]
     noble: [libprotobuf32t64]
+    resolute: [libprotobuf32t64]
 protobuf-compiler-grpc:
   arch: [grpc]
   debian: [protobuf-compiler-grpc]
@@ -9559,6 +9726,7 @@ rti-connext-dds-5.3.1:
   ubuntu:
     bionic: [rti-connext-dds-5.3.1]
     focal: [rti-connext-dds-5.3.1]
+    resolute: [rti-connext-dds-5.3.1]
 rti-connext-dds-6.0.1:
   nixos: []
   ubuntu:
@@ -9638,12 +9806,14 @@ sdformat:
     bionic: [libsdformat6-dev]
     focal: [libsdformat9-dev]
     jammy: [libsdformat-dev]
+    resolute: [libsdformat-dev]
 sdformat11:
   debian:
     buster: [libsdformat11-dev]
   nixos: [sdformat_11]
   ubuntu:
     focal: [libsdformat11-dev]
+    resolute: [libsdformat11-dev]
 sdformat12:
   debian:
     buster: [libsdformat12-dev]
@@ -9651,6 +9821,7 @@ sdformat12:
   ubuntu:
     focal: [libsdformat12-dev]
     jammy: [libsdformat12-dev]
+    resolute: [libsdformat12-dev]
 sdformat13:
   gentoo: ['dev-libs/sdformat:13']
   nixos: [sdformat_13]
