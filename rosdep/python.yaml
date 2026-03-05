@@ -4040,12 +4040,10 @@ python-spidev-pip: &migrate_eol_2025_04_30_python3_spidev_pip
         packages: [spidev]
     bookworm: [python3-spidev]
   ubuntu:
-    '*':
+    '*': [python3-spidev]
+    focal:
       pip:
         packages: [spidev]
-    jammy: [python3-spidev]
-    noble: &id001 [python3-spidev]
-    resolute: *id001
 python-sqlalchemy:
   debian: [python-sqlalchemy]
   fedora: [python-sqlalchemy]
@@ -4884,11 +4882,13 @@ python3-aio-pika-pip:
     pip:
       packages: [aio-pika]
   ubuntu:
-    '*':
+    '*': [python3-aio-pika]
+    focal:
       pip:
         packages: [aio-pika]
-    noble: &id002 [python3-aio-pika]
-    resolute: *id002
+    jammy:
+      pip:
+        packages: [aio-pika]
 python3-aiohttp:
   arch: [python-aiohttp]
   debian: [python3-aiohttp]
@@ -4964,12 +4964,10 @@ python3-ansible-runner-pip:
     pip:
       packages: [ansible-runner]
   ubuntu:
-    '*':
+    '*': [python3-ansible-runner]
+    focal:
       pip:
         packages: [ansible-runner]
-    jammy: [python3-ansible-runner]
-    noble: &id003 [python3-ansible-runner]
-    resolute: *id003
 python3-antlr4:
   debian: [python3-antlr4]
   nixos: [python3Packages.antlr4-python3-runtime]
@@ -5099,12 +5097,10 @@ python3-backoff-pip:
     pip:
       packages: [backoff]
   ubuntu:
-    '*':
+    '*': [python3-backoff]
+    focal:
       pip:
         packages: [backoff]
-    jammy: [python3-backoff]
-    noble: &id004 [python3-backoff]
-    resolute: *id004
 python3-bcrypt:
   debian: [python3-bcrypt]
   fedora: [python3-bcrypt]
@@ -6008,9 +6004,9 @@ python3-faiss:
     '*': [python3-faiss]
     focal:
       pip: [faiss-cpu]
-    noble: &id005
+    noble: &id001
       pip: [faiss-cpu]
-    resolute: *id005
+    resolute: *id001
 python3-falcon:
   arch: [python-falcon]
   debian: [python3-falcon]
@@ -6050,12 +6046,10 @@ python3-fasteners-pip:
         packages: [fasteners]
     bookworm: [python3-fasteners]
   ubuntu:
-    '*':
+    '*': [python3-fasteners]
+    focal:
       pip:
         packages: [fasteners]
-    jammy: [python3-fasteners]
-    noble: &id006 [python3-fasteners]
-    resolute: *id006
 python3-fastjsonschema:
   debian: [python3-fastjsonschema]
   fedora: [python3-fastjsonschema]
@@ -6155,11 +6149,13 @@ python3-flake8-black:
     pip:
       packages: [flake8-black]
   ubuntu:
-    '*':
+    '*': [python3-flake8-black]
+    focal:
       pip:
         packages: [flake8-black]
-    noble: &id007 [python3-flake8-black]
-    resolute: *id007
+    jammy:
+      pip:
+        packages: [flake8-black]
 python3-flake8-blind-except:
   debian:
     '*': [python3-flake8-blind-except]
@@ -6478,11 +6474,13 @@ python3-fpdf2-pip:
     pip:
       packages: [fpdf2]
   ubuntu:
-    '*':
+    '*': [python3-fpdf]
+    focal:
       pip:
         packages: [fpdf2]
-    noble: &id008 [python3-fpdf]
-    resolute: *id008
+    jammy:
+      pip:
+        packages: [fpdf2]
 python3-freezegun:
   debian: [python3-freezegun]
   fedora: [python3-freezegun]
@@ -7297,11 +7295,13 @@ python3-lingua-franca-pip:
         packages: [lingua-franca]
     bookworm: [python3-lingua-franca]
   ubuntu:
-    '*':
+    '*': [python3-lingua-franca]
+    focal:
       pip:
         packages: [lingua-franca]
-    noble: &id009 [python3-lingua-franca]
-    resolute: *id009
+    jammy:
+      pip:
+        packages: [lingua-franca]
 python3-lockfile:
   alpine: [py3-lockfile]
   arch: [python-lockfile]
@@ -7369,11 +7369,13 @@ python3-mapbox-earcut-pip:
     pip:
       packages: [mapbox-earcut]
   ubuntu:
-    '*':
+    '*': [python3-mapbox-earcut]
+    focal:
       pip:
         packages: [mapbox-earcut]
-    noble: &id010 [python3-mapbox-earcut]
-    resolute: *id010
+    jammy:
+      pip:
+        packages: [mapbox-earcut]
 python3-mapnik:
   debian: [python3-mapnik]
   fedora: [python3-mapnik]
@@ -7404,11 +7406,13 @@ python3-marshmallow:
   ubuntu: [python3-marshmallow]
 python3-marshmallow-dataclass-pip:
   ubuntu:
-    '*':
+    '*': [python3-marshmallow-dataclass]
+    focal:
       pip:
         packages: [marshmallow-dataclass]
-    noble: &id011 [python3-marshmallow-dataclass]
-    resolute: *id011
+    jammy:
+      pip:
+        packages: [marshmallow-dataclass]
 python3-matplotlib:
   alpine: [py3-matplotlib]
   arch: [python-matplotlib]
@@ -7510,10 +7514,10 @@ python3-minijinja:
     jammy:
       pip:
         packages: [minijinja]
-    noble: &id012
+    noble: &id002
       pip:
         packages: [minijinja]
-    resolute: *id012
+    resolute: *id002
 python3-minimalmodbus-pip:
   debian:
     pip:
@@ -8063,11 +8067,13 @@ python3-openai-pip:
     pip:
       packages: [openai]
   ubuntu:
-    '*':
+    '*': [python3-openai]
+    focal:
       pip:
         packages: [openai]
-    noble: &id013 [python3-openai]
-    resolute: *id013
+    jammy:
+      pip:
+        packages: [openai]
 python3-opencv:
   debian: [python3-opencv]
   fedora: [python3-opencv]
@@ -8224,12 +8230,10 @@ python3-padaos-pip:
     pip:
       packages: [padaos]
   ubuntu:
-    '*':
+    '*': [python3-padaos]
+    focal:
       pip:
         packages: [padaos]
-    jammy: [python3-padaos]
-    noble: &id014 [python3-padaos]
-    resolute: *id014
 python3-padatious-pip:
   debian:
     pip:
@@ -9212,10 +9216,10 @@ python3-pyside6:
     jammy:
       pip:
         packages: [PySide6]
-    noble: &id015
+    noble: &id003
       pip:
         packages: [PySide6]
-    resolute: *id015
+    resolute: *id003
 python3-pyside6.qtasyncio:
   debian:
     '*': [python3-pyside6.qtasyncio]
@@ -10142,12 +10146,10 @@ python3-sense-hat-pip:
     pip:
       packages: [sense-hat]
   ubuntu:
-    '*':
+    '*': [python3-sense-hat]
+    focal:
       pip:
         packages: [sense-hat]
-    jammy: [python3-sense-hat]
-    noble: &id016 [python3-sense-hat]
-    resolute: *id016
 python3-serial:
   debian: [python3-serial]
   fedora: [python3-pyserial]
@@ -11366,12 +11368,10 @@ python3-xmlschema:
   fedora: [python3-xmlschema]
   nixos: [python3Packages.xmlschema]
   ubuntu:
-    '*':
+    '*': [python3-xmlschema]
+    focal:
       pip:
         packages: [xmlschema]
-    jammy: [python3-xmlschema]
-    noble: &id017 [python3-xmlschema]
-    resolute: *id017
 python3-xmltodict:
   alpine: [py3-xmltodict]
   arch: [python-xmltodict]
