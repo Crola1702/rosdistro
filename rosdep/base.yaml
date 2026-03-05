@@ -5231,6 +5231,7 @@ libopencv-core:
     '*': [libopencv-core410]
     jammy: [libopencv-core4.5d]
     noble: [libopencv-core406t64]
+    resolute: [libopencv-core410]
 libopencv-core-dev:
   debian: [libopencv-core-dev]
   fedora: [opencv-devel]
