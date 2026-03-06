@@ -79,6 +79,8 @@ supported_versions:
   - focal
   - jammy
   - noble
+  - resolute
+
 
 supported_arches:
   alpine:
