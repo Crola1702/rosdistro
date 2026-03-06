@@ -5,43 +5,43 @@
 distributions:
   ardent:
     distribution: [ardent/distribution.yaml]
-    distribution_cache: http://repo.ros2.org/rosdistro_cache/ardent-cache.yaml.gz
+    distribution_cache: http://repo.test.ros2.org/rosdistro_cache/ardent-cache.yaml.gz
     distribution_status: end-of-life
     distribution_type: ros2
     python_version: 3
   bouncy:
     distribution: [bouncy/distribution.yaml]
-    distribution_cache: http://repo.ros2.org/rosdistro_cache/bouncy-cache.yaml.gz
+    distribution_cache: http://repo.test.ros2.org/rosdistro_cache/bouncy-cache.yaml.gz
     distribution_status: end-of-life
     distribution_type: ros2
     python_version: 3
   crystal:
     distribution: [crystal/distribution.yaml]
-    distribution_cache: http://repo.ros2.org/rosdistro_cache/crystal-cache.yaml.gz
+    distribution_cache: http://repo.test.ros2.org/rosdistro_cache/crystal-cache.yaml.gz
     distribution_status: end-of-life
     distribution_type: ros2
     python_version: 3
   dashing:
     distribution: [dashing/distribution.yaml]
-    distribution_cache: http://repo.ros2.org/rosdistro_cache/dashing-cache.yaml.gz
+    distribution_cache: http://repo.test.ros2.org/rosdistro_cache/dashing-cache.yaml.gz
     distribution_status: end-of-life
     distribution_type: ros2
     python_version: 3
   eloquent:
     distribution: [eloquent/distribution.yaml]
-    distribution_cache: http://repo.ros2.org/rosdistro_cache/eloquent-cache.yaml.gz
+    distribution_cache: http://repo.test.ros2.org/rosdistro_cache/eloquent-cache.yaml.gz
     distribution_status: end-of-life
     distribution_type: ros2
     python_version: 3
   foxy:
     distribution: [foxy/distribution.yaml]
-    distribution_cache: http://repo.ros2.org/rosdistro_cache/foxy-cache.yaml.gz
+    distribution_cache: http://repo.test.ros2.org/rosdistro_cache/foxy-cache.yaml.gz
     distribution_status: end-of-life
     distribution_type: ros2
     python_version: 3
   galactic:
     distribution: [galactic/distribution.yaml]
-    distribution_cache: http://repo.ros2.org/rosdistro_cache/galactic-cache.yaml.gz
+    distribution_cache: http://repo.test.ros2.org/rosdistro_cache/galactic-cache.yaml.gz
     distribution_status: end-of-life
     distribution_type: ros2
     python_version: 3
@@ -53,7 +53,7 @@ distributions:
     python_version: 2
   humble:
     distribution: [humble/distribution.yaml]
-    distribution_cache: http://repo.ros2.org/rosdistro_cache/humble-cache.yaml.gz
+    distribution_cache: http://repo.test.ros2.org/rosdistro_cache/humble-cache.yaml.gz
     distribution_status: active
     distribution_type: ros2
     python_version: 3
@@ -71,7 +71,7 @@ distributions:
     python_version: 2
   iron:
     distribution: [iron/distribution.yaml]
-    distribution_cache: http://repo.ros2.org/rosdistro_cache/iron-cache.yaml.gz
+    distribution_cache: http://repo.test.ros2.org/rosdistro_cache/iron-cache.yaml.gz
     distribution_status: end-of-life
     distribution_type: ros2
     python_version: 3
@@ -83,13 +83,13 @@ distributions:
     python_version: 2
   jazzy:
     distribution: [jazzy/distribution.yaml]
-    distribution_cache: http://repo.ros2.org/rosdistro_cache/jazzy-cache.yaml.gz
+    distribution_cache: http://repo.test.ros2.org/rosdistro_cache/jazzy-cache.yaml.gz
     distribution_status: active
     distribution_type: ros2
     python_version: 3
   kilted:
     distribution: [kilted/distribution.yaml]
-    distribution_cache: http://repo.ros2.org/rosdistro_cache/kilted-cache.yaml.gz
+    distribution_cache: http://repo.test.ros2.org/rosdistro_cache/kilted-cache.yaml.gz
     distribution_status: active
     distribution_type: ros2
     python_version: 3
@@ -119,7 +119,7 @@ distributions:
     python_version: 3
   rolling:
     distribution: [rolling/distribution.yaml]
-    distribution_cache: http://repo.ros2.org/rosdistro_cache/rolling-cache.yaml.gz
+    distribution_cache: http://repo.test.ros2.org/rosdistro_cache/rolling-cache.yaml.gz
     distribution_status: rolling
     distribution_type: ros2
     python_version: 3
