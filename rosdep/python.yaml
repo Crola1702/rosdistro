@@ -287,6 +287,16 @@ jupyter-notebook:
 libgv-python:
   debian: [libgv-python]
   ubuntu: [libgv-python]
+libshiboken6-dev:
+  alpine: [libshiboken6-dev]
+  debian: [libshiboken6-dev]
+  fedora: [python3-shiboken6-devel]
+  opensuse: [python3-pyside6-devel]
+  rhel:
+    '*': [python3-shiboken6-devel]
+    '8':
+  ubuntu: [
+  ubuntu: [libshiboken6-dev]
 libshiboken2-dev:
   alpine: [libshiboken2-dev]
   debian: [libshiboken2-dev]
@@ -295,11 +305,7 @@ libshiboken2-dev:
   rhel:
     '*': [python3-shiboken2-devel]
     '8':
-  ubuntu: [
-  ubuntu:
-    '*': [libshiboken6-dev]
-    jammy: [libshiboken2-dev]
-    noble: [libshiboken2-dev]
+  ubuntu: [libshiboken2-dev]
 mcap-ros2-support:
   debian:
     pip:
@@ -9140,7 +9146,8 @@ python3-pyside2:
     '*': [python3-pyside2, pyside2-tools, python3-pyside2-devel, python3-shiboken2, python3-shiboken2-devel, shiboken2]
     '8':
   ubuntu:
-    '*': [libpyside2-dev, libshiboken2-dev, python3-pyside2.qtcore, python3-pyside2.qtgui, python3-pyside2.qthelp, python3-pyside2.qtnetwork, python3-pyside2.qtprintsupport, python3-pyside2.qtsvg, python3-pyside2.qttest, python3-pyside2.qtwidgets, python3-pyside2.qtxml, shiboken2]
+    '*': [libpyside6-dev, libshiboken6-dev, python3-pyside6.qtcore, python3-pyside6.qtgui, python3-pyside6.qthelp, python3-pyside6.qtnetwork, python3-pyside6.qtprintsupport, python3-pyside6.qtsvg, python3-pyside6.qttest, python3-pyside6.qtwidgets, python3-pyside6.qtxml, shiboken6]
+    noble: [libpyside2-dev, libshiboken2-dev, python3-pyside2.qtcore, python3-pyside2.qtgui, python3-pyside2.qthelp, python3-pyside2.qtnetwork, python3-pyside2.qtprintsupport, python3-pyside2.qtsvg, python3-pyside2.qttest, python3-pyside2.qtwidgets, python3-pyside2.qtxml, shiboken2]
     bionic:
 python3-pyside2.qtcore:
   debian: [python3-pyside2.qtcore]
