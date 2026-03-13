@@ -9639,7 +9639,8 @@ python3-qt5-bindings:
     '8': ['python%{python3_pkgversion}-qt5-devel', 'python%{python3_pkgversion}-sip-devel', libXext-devel, redhat-rpm-config]
   slackware: [python3-PyQt5]
   ubuntu:
-    '*': [libpyside2-dev, libshiboken2-dev, pyqt5-dev, python3-pyqt5, python3-pyqt5.qtsvg, python3-pyside2.qtsvg, python3-sip-dev, shiboken2]
+    '*': [libpyside6-dev, libshiboken6-dev, pyqt5-dev, python3-pyqt5, python3-pyqt5.qtsvg, python3-pyside6.qtsvg, python3-sip-dev, shiboken6]
+    noble: [libpyside2-dev, libshiboken2-dev, pyqt5-dev, python3-pyqt5, python3-pyqt5.qtsvg, python3-pyside2.qtsvg, python3-sip-dev, shiboken2]
     bionic: [pyqt5-dev, python3-pyqt5, python3-pyqt5.qtsvg, python3-sip-dev]
 python3-qt5-bindings-gl:
   debian: [python3-pyqt5.qtopengl]
