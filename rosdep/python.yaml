@@ -295,7 +295,6 @@ libshiboken6-dev:
   rhel:
     '*': [python3-shiboken6-devel]
     '8':
-  ubuntu: [
   ubuntu: [libshiboken6-dev]
 libshiboken2-dev:
   alpine: [libshiboken2-dev]
