@@ -295,7 +295,11 @@ libshiboken2-dev:
   rhel:
     '*': [python3-shiboken2-devel]
     '8':
-  ubuntu: [libshiboken2-dev]
+  ubuntu: [
+  ubuntu:
+    '*': [libshiboken6-dev]
+    jammy: [libshiboken2-dev]
+    noble: [libshiboken2-dev]
 mcap-ros2-support:
   debian:
     pip:
