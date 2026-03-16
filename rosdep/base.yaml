@@ -213,7 +213,9 @@ atlas:
   macports: [atlas]
   nixos: [atlas]
   rhel: [atlas-devel]
-  ubuntu: [libatlas-base-dev]
+  ubuntu:
+    '*': [libopenblas-dev]
+    noble: [libatlas-base-dev]
 autoconf:
   arch: [autoconf]
   debian: [autoconf]
@@ -331,7 +333,9 @@ bazaar:
   macports: [bazaar]
   nixos: [breezy]
   opensuse: [bzr]
-  ubuntu: [bzr]
+  ubuntu:
+    '*': [breezy]
+    noble: [bzr]
 beep:
   arch: [beep]
   debian: [beep]
@@ -550,7 +554,9 @@ cgal-qt5-dev:
   debian: [libcgal-qt5-dev]
   fedora: [CGAL-devel]
   gentoo: ['sci-mathematics/cgal[qt5]']
-  ubuntu: [libcgal-qt5-dev]
+  ubuntu:
+    '*': [libcgal-dev]
+    noble: [libcgal-qt5-dev]
 checkinstall:
   debian: [checkinstall]
   nixos: [checkinstall]
@@ -722,7 +728,8 @@ collada-dom:
   openembedded: [collada-dom@meta-ros-common]
   slackware: [collada-dom]
   ubuntu:
-    '*': [libcollada-dom2.4-dp-dev]
+    '*': [libcollada-dom-dev]
+    noble: [libcollada-dom2.4-dp-dev]
 collectd:
   debian: [collectd]
   fedora: [collectd]
@@ -921,7 +928,9 @@ docker-compose:
   fedora: [docker-compose]
   nixos: [docker-compose]
   openembedded: [docker-compose@meta-virtualization]
-  ubuntu: [docker-compose]
+  ubuntu:
+    '*': [docker-compose-v2]
+    noble: [docker-compose]
 docker.io:
   debian:
     '*': [docker.io]
@@ -1077,7 +1086,9 @@ exfat-utils:
   debian: [exfat-utils]
   gentoo: [sys-fs/exfat-utils]
   nixos: [exfat]
-  ubuntu: [exfat-utils]
+  ubuntu:
+    '*': [exfatprogs]
+    noble: [exfat-utils]
 exiv2:
   alpine: [exiv2]
   arch: [exiv2]
@@ -1157,7 +1168,9 @@ ffmpeg-dev:
     '*': [ffmpeg-free-devel]
     '8':
   slackware: [ffmpeg]
-  ubuntu: [libavcodec-dev, libavdevice-dev, libavfilter-dev, libavformat-dev, libavutil-dev, libpostproc-dev, libswresample-dev, libswscale-dev]
+  ubuntu:
+    '*': [libavcodec-dev, libavformat-dev]
+    noble: [libavcodec-dev, libavdevice-dev, libavfilter-dev, libavformat-dev, libavutil-dev, libpostproc-dev, libswresample-dev, libswscale-dev]
 ffmpeg2theora:
   arch: [ffmpeg2theora]
   debian: [ffmpeg2theora]
@@ -1703,7 +1716,9 @@ gperftools:
   gentoo: [dev-util/gperf]
   nixos: [gperftools]
   openembedded: [gperftools@meta-oe]
-  ubuntu: [google-perftools, libgoogle-perftools-dev]
+  ubuntu:
+    '*': [libgoogle-perftools-dev]
+    noble: [google-perftools, libgoogle-perftools-dev]
 gpg-agent:
   arch: [gnupg]
   debian:
@@ -1983,7 +1998,8 @@ gz-citadel:
     '*': [gz-citadel]
 gz-cmake2:
   ubuntu:
-    '*': [libgz-cmake2-dev]
+    '*': [libgz-cmake3-dev]
+    noble: [libgz-cmake2-dev]
 gz-cmake3:
   gentoo: ['dev-build/gz-cmake:3']
 gz-common3:
@@ -3845,7 +3861,9 @@ libfftw3:
   gentoo: ['sci-libs/fftw:3.0']
   nixos: [fftw, fftwSinglePrec]
   openembedded: [fftw@meta-oe]
-  ubuntu: [libfftw3-3, libfftw3-dev]
+  ubuntu:
+    '*': [libfftw3-dev]
+    noble: [libfftw3-3, libfftw3-dev]
 libfl-dev:
   debian: [libfl-dev]
   fedora: [libfl-devel]
@@ -3987,7 +4005,9 @@ libfreetype6-dev:
   nixos: [freetype]
   openembedded: [freetype@openembedded-core]
   rhel: [freetype-devel]
-  ubuntu: [libfreetype6-dev]
+  ubuntu:
+    '*': [libfreetype-dev]
+    noble: [libfreetype6-dev]
 libftdi-dev:
   arch: [libftdi]
   debian: [libftdi-dev]
@@ -4659,9 +4679,10 @@ libjsoncpp:
   opensuse: [libjsoncpp19]
   rhel: [jsoncpp]
   ubuntu:
-    '*': [libjsoncpp25]
+    '*': [libjsoncpp-dev]
     bionic: [libjsoncpp1]
     focal: [libjsoncpp1]
+    noble: [libjsoncpp25]
 libjsoncpp-dev:
   arch: [jsoncpp]
   debian: [libjsoncpp-dev]
@@ -5410,7 +5431,9 @@ libopenvdb-dev:
   rhel:
     '*': [openvdb-devel]
     '7':
-  ubuntu: [libopenvdb-dev, libilmbase-dev]
+  ubuntu:
+    '*': [libopenexr-dev]
+    noble: [libopenvdb-dev, libilmbase-dev]
 libopus-dev:
   alpine: [opus-dev]
   arch: [opus]
@@ -5974,7 +5997,9 @@ libpng12-dev:
   nixos: [libpng12]
   opensuse: [libpng12-devel]
   slackware: [libpng]
-  ubuntu: [libpng12-dev]
+  ubuntu:
+    '*': [libpng-dev]
+    noble: [libpng12-dev]
 libpoco-dev:
   alpine: [poco-dev]
   arch: [poco]
@@ -6020,10 +6045,11 @@ libpqxx:
   gentoo: [dev-libs/libpqxx]
   nixos: [libpqxx]
   ubuntu:
-    '*': [libpqxx-7.8t64]
+    '*': [libpqxx-dev]
     bionic: [libpqxx-4.0v5]
     focal: [libpqxx-6.4]
     jammy: [libpqxx-6.4]
+    noble: [libpqxx-7.8t64]
 libpqxx-dev:
   arch: [libpqxx]
   debian: [libpqxx-dev]
@@ -7318,8 +7344,9 @@ libvtk:
   nixos: [vtk]
   opensuse: [vtk-devel]
   ubuntu:
-    '*': [libvtk7-dev]
+    '*': [libvtk9-dev]
     bionic: [libvtk6-dev]
+    noble: [libvtk7-dev]
 libvtk-java:
   arch: [vtk]
   debian:
@@ -7332,8 +7359,9 @@ libvtk-java:
   opensuse: [vtk-java]
   slackware: [VTK]
   ubuntu:
-    '*': [libvtk7-java]
+    '*': [libvtk9-java]
     bionic: [libvtk6-java]
+    noble: [libvtk7-java]
 libvtk-qt:
   arch: [vtk]
   debian:
@@ -7347,8 +7375,9 @@ libvtk-qt:
   opensuse: [vtk-qt]
   slackware: [VTK]
   ubuntu:
-    '*': [libvtk7-qt-dev]
+    '*': [libvtk9-qt-dev]
     bionic: [libvtk6-qt-dev]
+    noble: [libvtk7-qt-dev]
 libvtk9-dev:
   debian: [libvtk9-dev]
   ubuntu:
@@ -7904,8 +7933,9 @@ m2r:
     pip:
       packages: [m2r]
   ubuntu:
-    '*': [m2r]
+    '*': [python3-m2r2]
     bionic:
+    noble: [m2r]
 m4:
   arch: [m4]
   debian: [m4]
@@ -8003,7 +8033,8 @@ mkdocs-bootswatch:
   fedora: [mkdocs-bootswatch]
   gentoo: [dev-python/mkdocs-bootswatch]
   ubuntu:
-    '*': [mkdocs-bootswatch]
+    '*': [python3-mkdocs-bootswatch]
+    noble: [mkdocs-bootswatch]
 modemmanager:
   debian: [modemmanager]
   fedora: [ModemManager]
@@ -8184,7 +8215,9 @@ netpbm:
   nixos: [netpbm]
   opensuse: [libnetpbm-devel]
   rhel: [netpbm-devel]
-  ubuntu: [libnetpbm10-dev]
+  ubuntu:
+    '*': [libnetpbm-dev]
+    noble: [libnetpbm10-dev]
 network-manager:
   arch: [networkmanager]
   debian: [network-manager]
@@ -8246,7 +8279,9 @@ nodejs-legacy:
   debian: [nodejs-legacy]
   fedora: [nodejs]
   nixos: [nodejs]
-  ubuntu: [nodejs-legacy]
+  ubuntu:
+    '*': [nodejs]
+    noble: [nodejs-legacy]
 npm:
   arch: [npm]
   debian: [npm]
@@ -8259,13 +8294,17 @@ ntp:
   debian: [ntp]
   gentoo: [net-misc/ntp]
   nixos: [ntp]
-  ubuntu: [ntp]
+  ubuntu:
+    '*': [chrony]
+    noble: [ntp]
 ntpdate:
   arch: [ntp]
   debian: [ntpdate]
   gentoo: [net-misc/ntp]
   nixos: [ntp]
-  ubuntu: [ntpdate]
+  ubuntu:
+    '*': [chrony]
+    noble: [ntpdate]
 nvidia-cg:
   arch: [nvidia-cg-toolkit]
   debian: [nvidia-cg-toolkit]
@@ -8490,7 +8529,9 @@ pcre-dev:
   gentoo: [dev-libs/libpcre]
   nixos: [pcre]
   rhel: [pcre-devel]
-  ubuntu: [libpcre++-dev]
+  ubuntu:
+    '*': [libpcre2-dev]
+    noble: [libpcre++-dev]
 pcscd:
   alpine: [pcsc-lite]
   arch: [pcsclite]
@@ -8584,7 +8625,9 @@ portaudio:
   gentoo: [media-libs/portaudio]
   nixos: [portaudio]
   openembedded: [portaudio-v19@meta-oe]
-  ubuntu: [libportaudio-dev]
+  ubuntu:
+    '*': [libportaudio2, libportaudiocpp0]
+    noble: [libportaudio-dev]
 portaudio19-dev:
   debian: [portaudio19-dev]
   fedora: [portaudio-devel]
@@ -8608,7 +8651,9 @@ postgresql:
   fedora: [postgresql-server, postgresql-contrib]
   nixos: [postgresql]
   openembedded: [postgresql@meta-oe]
-  ubuntu: [postgresql, postgresql-contrib]
+  ubuntu:
+    '*': [postgresql-17]
+    noble: [postgresql, postgresql-contrib]
 postgresql-9.x-postgis:
   debian:
     buster: [postgresql-9.6-postgis-2.3, postgresql-contrib, postgresql-server-dev-all]
@@ -8630,8 +8675,9 @@ postgresql-postgis:
   gentoo: [dev-db/postgis, =dev-db/postgresql-9*]
   nixos: [postgresqlPackages.postgis]
   ubuntu:
-    '*': [postgresql-12-postgis-3, postgresql-contrib, postgresql-server-dev-all]
+    '*': [postgresql-17-postgis-3]
     bionic: [postgresql-10-postgis-2.4, postgresql-contrib, postgresql-server-dev-all]
+    noble: [postgresql-12-postgis-3, postgresql-contrib, postgresql-server-dev-all]
 potrace:
   arch: [potrace]
   debian: [potrace]
@@ -8780,8 +8826,9 @@ python-dev:
     '7': [python2-devel]
     '8': [python2-devel]
   ubuntu:
-    '*': [python-dev]
+    '*': [python3-dev]
     focal: [python2-dev]
+    noble: [python-dev]
 qemu-user-static:
   arch: [qemu-user-static]
   debian: [qemu-user-static]
@@ -10481,7 +10528,9 @@ wireless-tools:
   fedora: [wireless-tools]
   gentoo: [net-wireless/wireless-tools]
   nixos: [wirelesstools]
-  ubuntu: [wireless-tools]
+  ubuntu:
+    '*': [iw]
+    noble: [wireless-tools]
 wireshark:
   arch: [wireshark-qt]
   debian: [wireshark]
