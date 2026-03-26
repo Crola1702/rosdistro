@@ -8241,10 +8241,10 @@ python3-open3d:
     buster:
     stretch:
   ubuntu:
-    '*':
+    '*': [python3-open3d]
     bionic:
     focal:
-    noble: [python3-open3d]
+    noble:
 python3-open3d-pip:
   debian:
     pip:
@@ -9427,90 +9427,90 @@ python3-pyside6.qtasyncio:
     bookworm:
     bullseye:
   ubuntu:
-    '*':
+    '*': [python3-pyside6.qtasyncio]
     focal:
     jammy:
-    noble: [python3-pyside6.qtasyncio]
+    noble:
 python3-pyside6.qtcharts:
   debian:
     '*': [python3-pyside6.qtcharts]
     bookworm:
     bullseye:
   ubuntu:
-    '*':
+    '*': [python3-pyside6.qtcharts]
     focal:
     jammy:
-    noble: [python3-pyside6.qtcharts]
+    noble:
 python3-pyside6.qtconcurrent:
   debian:
     '*': [python3-pyside6.qtconcurrent]
     bookworm:
     bullseye:
   ubuntu:
-    '*':
+    '*': [python3-pyside6.qtconcurrent]
     focal:
     jammy:
-    noble: [python3-pyside6.qtconcurrent]
+    noble:
 python3-pyside6.qtcore:
   debian:
     '*': [python3-pyside6.qtcore]
     bookworm:
     bullseye:
   ubuntu:
-    '*':
+    '*': [python3-pyside6.qtcore]
     focal:
     jammy:
-    noble: [python3-pyside6.qtcore]
+    noble:
 python3-pyside6.qtdatavisualization:
   debian:
     '*': [python3-pyside6.qtdatavisualization]
     bookworm:
     bullseye:
   ubuntu:
-    '*':
+    '*': [python3-pyside6.qtdatavisualization]
     focal:
     jammy:
-    noble: [python3-pyside6.qtdatavisualization]
+    noble:
 python3-pyside6.qtgui:
   debian:
     '*': [python3-pyside6.qtgui]
     bookworm:
     bullseye:
   ubuntu:
-    '*':
+    '*': [python3-pyside6.qtgui]
     focal:
     jammy:
-    noble: [python3-pyside6.qtgui]
+    noble:
 python3-pyside6.qtqml:
   debian:
     '*': [python3-pyside6.qtqml]
     bookworm:
     bullseye:
   ubuntu:
-    '*':
+    '*': [python3-pyside6.qtqml]
     focal:
     jammy:
-    noble: [python3-pyside6.qtqml]
+    noble:
 python3-pyside6.qttest:
   debian:
     '*': [python3-pyside6.qttest]
     bookworm:
     bullseye:
   ubuntu:
-    '*':
+    '*': [python3-pyside6.qttest]
     focal:
     jammy:
-    noble: [python3-pyside6.qttest]
+    noble:
 python3-pyside6.qtwidgets:
   debian:
     '*': [python3-pyside6.qtwidgets]
     bookworm:
     bullseye:
   ubuntu:
-    '*':
+    '*': [python3-pyside6.qtwidgets]
     focal:
     jammy:
-    noble: [python3-pyside6.qtwidgets]
+    noble:
 python3-pysnmp:
   debian: [python3-pysnmp4]
   fedora: [python3-pysnmp]
